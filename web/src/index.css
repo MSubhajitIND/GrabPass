@@ -1,0 +1,57 @@
+/* src/index.css - Plain CSS. No Tailwind build-time directives here. */
+/* Tailwind utilities are provided by the CDN in index.html */
+
+:root {
+    --transition-fast: 0.18s;
+  }
+  
+  /* small resets */
+  * {
+    box-sizing: border-box;
+    transition: background-color var(--transition-fast),
+                color var(--transition-fast),
+                border-color var(--transition-fast);
+  }
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* simple helper classes (used by our components) */
+  .input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(229, 231, 235, 1); /* gray-200 */
+    background: white;
+    font-size: 0.95rem;
+    color: inherit;
+  }
+  .dark .input {
+    border-color: rgba(55, 65, 81, 1); /* gray-700 */
+    background: #0b1220;
+  }
+  
+  /* small card helper (kept minimal) */
+  .card {
+    background: white;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(12, 20, 30, 0.06);
+    border: 1px solid rgba(229, 231, 235, 1);
+  }
+  .dark .card {
+    background: #0b1220;
+    border-color: rgba(55, 65, 81, 1);
+  }
+  
+  /* keep images responsive */
+  img {
+    max-width: 100%;
+    display: block;
+  }

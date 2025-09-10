@@ -1,0 +1,47 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+package-lock.json
+
+# Build output
+dist/
+build/
+.web-build/
+
+# Environment
+.env
+server/.env
+web/.env
+mobile/.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# Expo / React Native
+.expo/
+.expo-shared/
+android/
+ios/
+*.keystore
+*.jks
+*.p8
+
+# Native build artefacts
+build/
+.gradle/
+*.iml
+
+# IDEs
+.vscode/
+.idea/
+
+# logs
+logs/
+*.log
+
+# OS
+Thumbs.db
