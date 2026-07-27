@@ -76,6 +76,6 @@ Event organizers often struggle with:
 - Backend → Render (Web Service)
 - Frontend → Render (Static Site)
 - Database → MongoDB Atlas
-- Mobile → Expo Go / EAS Build
+- Mobile → Expo Go/EAS Build
 
 ---
